@@ -1,0 +1,16 @@
+{
+  "name": "kpweb-worker",
+  "version": "1.0.0",
+  "description": "Cloudflare Worker with KV storage binding for kpweb.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "wrangler dev",
+    "deploy": "wrangler deploy"
+  },
+  "dependencies": {
+    "hono": "^4.3.11"
+  },
+  "devDependencies": {
+    "wrangler": "^3.58.0"
+  }
+}
