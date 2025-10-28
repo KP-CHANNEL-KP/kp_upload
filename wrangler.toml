@@ -9,7 +9,7 @@ compatibility_date = "2024-10-29" # လက်ရှိနေ့စွဲဖြ�
 # သင်ဖန်တီးခဲ့သော 'kpweb' Namespace ကို ချိတ်ဆက်ခြင်း
 [[kv_namespaces]]
 binding = "KPWEB_CONFIG"  # <--- Worker Code ထဲမှာ ခေါ်သုံးမယ့် Variable Name
-id = "YOUR_KPWEB_NAMESPACE_ID" # <--- ဒီနေရာမှာ သင့်ရဲ့ kpweb Namespace ID ကို ဖြည့်သွင်းရမည်။
+id = "13a22a7736c64b78a1cda88339dd50bb" # <--- ဒီနေရာမှာ သင့်ရဲ့ kpweb Namespace ID ကို ဖြည့်သွင်းရမည်။
                                # (Cloudflare KV Dashboard တွင် ကြည့်ရှုနိုင်သည်)
 
 # [site]
