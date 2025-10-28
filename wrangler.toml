@@ -1,0 +1,16 @@
+name = "kpweb-worker"
+main = "src/index.js"
+compatibility_date = "2024-10-29" # လက်ရှိနေ့စွဲဖြင့် အစားထိုးနိုင်သည်
+
+# [vars]
+# # လိုအပ်ပါက ဤနေရာတွင် ပုံမှန် Environment Variables များ ထည့်သွင်းနိုင်သည်
+
+# KV Binding အတွက် အပိုင်း
+# သင်ဖန်တီးခဲ့သော 'kpweb' Namespace ကို ချိတ်ဆက်ခြင်း
+[[kv_namespaces]]
+binding = "KPWEB_CONFIG"  # <--- Worker Code ထဲမှာ ခေါ်သုံးမယ့် Variable Name
+id = "YOUR_KPWEB_NAMESPACE_ID" # <--- ဒီနေရာမှာ သင့်ရဲ့ kpweb Namespace ID ကို ဖြည့်သွင်းရမည်။
+                               # (Cloudflare KV Dashboard တွင် ကြည့်ရှုနိုင်သည်)
+
+# [site]
+# # Static Assets များ Deploy မလုပ်ပါက ဖျက်ပစ်နိုင်သည်
