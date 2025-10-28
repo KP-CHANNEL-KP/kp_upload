@@ -1,4 +1,4 @@
-name = "kpweb-worker"
+name = "kpupload01"
 main = "src/index.js"
 compatibility_date = "2024-10-29" # လက်ရှိနေ့စွဲဖြင့် အစားထိုးနိုင်သည်
 
